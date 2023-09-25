@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giphy Fun</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,800;0,9..40,900;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,800;1,9..40,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="app.css?v=1">
 </head>
 <body>
-    <h1>Giphy Fun</h1>
-    <div class="input-form-container">
-        <form action="" id="giphy-search-form">
-            <input id="search-term" type="text" placeholder="Enter search term">
-            <button id="giphy-search-btn">Search Giphy</button>
-        </form>
-        <button id="clear-images-button">Remove Images</button>
+    <div class="header-container">
+        <h1>Giphy Fun</h1>
+        <div class="input-form-container">
+            <form action="" id="giphy-search-form">
+                <input id="search-term" type="text" placeholder="Enter search term">
+                <button id="giphy-search-btn">Search Giphy</button>
+            </form>
+            <button id="clear-images-button">Remove Images</button>
+        </div>
     </div>
     <div class="output-container">
         <ul id="insert-images">
-            <li><img src="https://media2.giphy.com/media/5OV5JPwY7C3Ak1dUBx/200.gif" alt=""></li>
+
         </ul>
     </div>
 
